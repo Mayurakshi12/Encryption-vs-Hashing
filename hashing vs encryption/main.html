@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/f9a3bcb80f.js" crossorigin="anonymous"></script>
+  
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encryption vs Hashing</title>
+</head>
+
+
+<body class="light-mode">
+
+    <div id="mode-toggle" class="toggle-mode" onclick="toggleMode()">
+        <span id="light-mode-emoji">☀️</span>
+        <span id="dark-mode-emoji" style="display: none;">🌙</span>
+    </div>
+
+    <div class="first">
+        <section id="about" class="py-5">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4">
+                        <h1 class="display-4" id="about-head">New ??</h1>
+                        <hr class="my-4 thicker-hr">
+                        <h2 class="mb-3 hold">Don't know anything about Encryption and hashing</h2>
+                        <p class="lead">Don't worry here we are 😉</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img class="img-fluid" src="/pictures/thinking_man_PNG11594.png" alt="Thinking Man">
+                    </div>
+                </div>
+            </div>
+            <div class="arrow text-center mt-3">
+                <a href="#encrp">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    
+<section id="card-section" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Encryption</h5>
+                        <p class="card-text">Encryption is a way of scrambling data so that only authorized parties can understand the information.</p>
+                        <hr>
+                    <div class="card-content">
+                        <a href="#encrp" class="card-link">READ HERE -></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hashing</h5>
+                        <p class="card-text">Hashing is the process of transforming any given key or a string of characters into another value.</p>
+                        <hr>
+                        <div class="card-content">
+                        <a href="#hash" class="card-link">READ HERE -></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Encryption vs Hashing</h5>
+                        <p class="card-text">Encryption protects the confidentiality of data whereas hashing validates the integrity of data.</p>
+                        <hr>
+                    <div class="card-content">
+                        <a href="#enash" class="card-link">READ HERE -></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<div class="section" id="encrp">
+    <h2 class="divided-head"># WHAT IS ENCRYPTION ?</h2>
+    <p class="divided-head2">Let's learn what we mean by Encryption.</p>
+    <section id="divided-section" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-content">
+                        <p class="nice"><span>Encryption is a form of data security in which information is converted to ciphertext.</span>
+                            <br> Only authorized people who have the key can decipher the code and access the original plaintext information. In even simpler terms, encryption is a way to render data unreadable to an unauthorized party. Encryption not only ensures the confidentiality of data or messages but it also provides authentication and integrity, proving that the underlying data or messages have not been altered in any way from their original state.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-content text-center">
+                        <img src="https://www.egnyte.com/sites/default/files/inline-images/hsVNCfELzr2R0D2YOOBUbXcBgYYXHhcY7lUKrkw9e7vEq8zFQN.png" alt="Encryption" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<section id="encryp2" class="encryp2">
+    <div class="container py-lg-5 my-sm-auto">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="divided-head"># HOW DOES ENCRYPTION WORK ?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="encryp2-p">
+                    <p>When information or data is shared over the internet, it goes through a series of network devices worldwide, which form part of the public internet. As data travels through the public internet, there is a chance it could be compromised or stolen by hackers. To prevent this, users can install specific software or hardware to ensure the secure transfer of data or information. These processes are known as encryption in network security.
+                        Encryption involves converting human-readable plaintext into incomprehensible text, which is known as ciphertext. Essentially, this means taking readable data and changing it so that it appears random. Encryption involves using a cryptographic key, a set of mathematical values both the sender and recipient agree on. The recipient uses the key to decrypt the data, turning it back into readable plaintext.
+                        The more complex the cryptographic key, the more secure the encryption – because third parties are less likely to decrypt it via brute force attacks (i.e. trying random numbers until the correct combination is guessed).
+                        Encryption is also used to protect passwords. Password encryption methods scramble your password, so it's unreadable by hackers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="encryp-3">
+        <div class="container my-5">
+            <div class="col-lg-12">
+                <p class="imp">
+                    <span class="encryp3-span2"><u>Encryption performs four important functions:</u></span>
+                    <ul class="encryp3-list">
+                        <li><span class="encryp3-span3">Confidentiality:</span> keeps the contents of the data secret</li>
+                        <li><span class="encryp3-span3">Integrity:</span> verifies the origin of the message or data</li>
+                        <li><span class="encryp3-span3">Authentication:</span> validates that the content of the message or data has not been altered since it was sent</li>
+                        <li><span class="encryp3-span3">Nonrepudiation:</span> prevents the sender of the data or message from denying they were the origin</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        </div>
+</section>
+
+
+<div class="encrp4" id="encrp-4">
+    <div class="container py-5">
+        <h2 class="divided-heading"># TYPES OF ENCRYPTION</h2>
+        <p class="divided-heading2">There are two types of encryption in widespread use today: <span> Symmetric and Asymmetric encryption.</span></p>
+        <h4 class="symmetric"><u>SYMMETRIC ENCRYPTION</u></h4>
+        <div class="row py-4">
+            <div class="col-md-6">
+                <div class="left-content-2">
+                    <p>In symmetric encryption the same key is used for encryption and decryption. It is therefore critical that a secure method is considered to transfer the key between sender and recipient.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content-2 text-center">
+                    <img src="https://ico.org.uk/media/images/other/2260256/symmetric.gif" alt="symmetric-encryption" class="img-fluid img-4">
+                </div>
+            </div>
+        </div>
+
+
+        <h4 class="symmetric"><u>ASYMMETRIC ENCRYPTION</u></h4>
+        <div class="row py-4">
+            <div class="col-md-6">
+                <div class="right-content-2 text-center">
+                    <img src="https://ico.org.uk/media/images/other/2260261/asymmetric.gif" alt="symmetric-encryption" class="img-fluid img-4">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="left-content-3">
+                    <p>Asymmetric encryption uses the notion of a key pair: a different key is used for the encryption and decryption process. One of the keys is typically known as the private key and the other is known as the public key.
+                        <br>
+                        The private key is kept secret by the owner and the public key is either shared amongst authorised recipients or made available to the public at large.
+                        Data encrypted with the recipient’s public key can only be decrypted with the corresponding private key. Data can therefore be transferred without the risk of unauthorised or unlawful access to the data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="hash" class="py-5">
+    <div class="container">
+        <h2 class="divided-head text-center"># WHAT IS HASHING ?</h2>
+        <p class="divided-head4 text-center">Hashing is a form of computer security that enables data integrity and authentication.</p>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="left-content-4">
+                    <p><span class="hii">A hash value is the output of plaintext or ciphertext.</span><br> Hashing is a cryptographic technique that transforms any form of data into a special text string. 
+                        For any given input, there is a deterministic output. When you put a plaintext into a hashing algorithm in simpler terms, you get the same outcome. Suppose you change anything about the input or the plaintext to the hashing algorithm. The hashing output also becomes different.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content-4 text-center">
+                    <img src="https://positiwise.com/blog/wp-content/uploads/2023/08/hash-function.png" alt="Hashing" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="hash2" class="hash2">
+    <div class="container py-lg-5 my-sm-auto">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="divided-head"># HOW DOES HASHING WORK ?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hash2-p">
+                    <p>Hashing works by converting a readable text into an unreadable text of secure data. Hashing is efficiently executed but extremely difficult to reverse. Like I stated earlier, hashing and encryption are often mistaken. Encryption is a two-way function. The plaintext can be encrypted into ciphertext and decrypted back into plaintext using a unique key. The difference between encryption and hashing is that encryption is reversible while hashing is irreversible.
+                Hashing takes the password a user enters and randomly generates a hash using many variables (text and numbers). When you input your password to log in, it is matched to the hash password. This is because the input is the same as the output.
+                    </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="hash-3">
+        <div class="container my-5">
+            <div class="col-lg-12">
+                <p class="imp-p">
+                    <span class="hash3-span2"><u>Encryption performs four important functions:</u></span>
+                    <ul class="hash3-list">
+                        <li>To verify data integrity.</li>
+                        <li>Authentication.</li>
+                        <li>To store sensitive data.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        </div>
+</section>
+
+
+
+<section id="enash" class="py-5">
+    <div class="container text-center">
+        <h1 class="h1-head"># ENCRYPTION VS HASHING</h1>
+        <div class="col-md-12">
+            <img class="img-fluid mb-4 img-enash" src="/pictures/encryption-vs-hashing.png" alt="Encryption vs Hashing">
+            <br>
+        </div>
+        <div class="enash-dif">
+            <p>Encryption is a two-way function where data is passed in as plaintext and comes out as ciphertext, which is unreadable.
+                Since encryption is two-way, the data can be decrypted so it is readable again.
+                Hashing, on the other hand, is one-way, meaning the plaintext is scrambled into a unique digest, through the use of a salt, that cannot be decrypted.
+                Technically, hashing can be reversed, but the computational power needed to decrypt it makes decryption infeasible.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span class="hash3-span2"><u>COMPARISON BETWEEN ENCRYPTION VS HASHING:</u></span>
+                <table class="table table-bordered mt-4">
+                    <thead>
+                        <tr>
+                            <th>Aspect</th>
+                            <th>Encryption</th>
+                            <th>Hashing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Purpose</td>
+                            <td>Protects data confidentiality</td>
+                            <td>Produces fixed-size hash value</td>
+                        </tr>
+                        <tr>
+                            <td>Reversibility</td>
+                            <td>Can be decrypted using a key</td>
+                            <td>Cannot be reversed or decrypted</td>
+                        </tr>
+                        <tr>
+                            <td>Output Length</td>
+                            <td>Variable, typically matches input size</td>
+                            <td>Fixed, regardless of input size</td>
+                        </tr>
+                        <tr>
+                            <td>Use Case</td>
+                            <td>Securely transmit sensitive data</td>
+                            <td>Verify data integrity</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td>Depends on algorithm and key</td>
+                            <td>Depends on hash function strength</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function toggleMode() {
+        const body = document.body;
+        const lightModeEmoji = document.getElementById('light-mode-emoji');
+        const darkModeEmoji = document.getElementById('dark-mode-emoji');
+        
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+            lightModeEmoji.style.display = 'none';
+            darkModeEmoji.style.display = 'inline';
+        } else {
+            lightModeEmoji.style.display = 'inline';
+            darkModeEmoji.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
